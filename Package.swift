@@ -4,6 +4,6 @@ let package = Package(
     name: "Cgd",
     pkgConfig: "gdlib",
     providers: [
-        .Brew(["gd"])
+        .Brew("gd")
     ]
 )
